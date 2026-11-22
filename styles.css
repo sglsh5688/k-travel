@@ -444,7 +444,7 @@ h1, h2, h3, h4 { font-family: var(--display); font-weight: 700; }
 }
 .modal::backdrop { background: #050914c7; }
 body:has(dialog[open]) { overflow: hidden; }
-.close-form { float: right; margin-left: .6rem; }
+.close-form { position: sticky; z-index: 1; top: 0; float: right; margin-left: .6rem; }
 .close-button {
   display: grid;
   place-items: center;
@@ -557,6 +557,10 @@ body:has(dialog[open]) { overflow: hidden; }
   .site-footer { align-items: flex-start; flex-direction: column; }
 }
 @media (max-width: 560px) {
+  .hero { min-height: 17.75rem; }
+  .hero-copy { padding-bottom: 3rem; }
+  .departure-actions { display: grid; gap: .55rem; }
+  .map-help { justify-self: start; }
   .cards { grid-template-columns: minmax(0, 1fr); }
   .card-media { aspect-ratio: 2.07; }
   .card-content { padding-inline: .85rem; }
@@ -571,8 +575,6 @@ body:has(dialog[open]) { overflow: hidden; }
   .brand { font-size: 1.18rem; }
   .brand-mark { margin-right: .38rem; width: 2rem; height: 2rem; }
   .main-nav a { min-width: 3.9rem; gap: .26rem; padding-inline: .38rem; }
-  .departure-actions { align-items: flex-start; flex-direction: column; }
-  .departure-actions .select-wrap { width: 100%; }
   .menu-photo { width: 3rem; }
 }
 @media (prefers-reduced-motion: reduce) {

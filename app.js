@@ -213,7 +213,10 @@ function card(venue, index) {
   }
   if (venue.menu?.length) {
     const priceLine = make("div", "fact");
-    priceLine.append(icon("menu_book"), priceNode(venue.menu[0].price), make("span", "", venue.menu[0].short ?? venue.menu[0].name));
+    const dish = venue.menu[0];
+    priceLine.append(icon("menu_book"));
+    if (dish.price !== venue.pair?.price) priceLine.append(priceNode(dish.price));
+    priceLine.append(make("span", "", dish.short ?? dish.name));
     facts.append(priceLine);
   }
   if (venue.pair) {
@@ -435,6 +438,7 @@ function updateRoute() {
   $("route-transit").href = englishTransit(state.origin, venue);
   $("route-transit").classList.toggle("primary", !isMobile() && mode.web === "transit");
   $("route-copy").classList.toggle("primary", !isMobile() && mode.web !== "transit");
+  $("driver-card").hidden = state.routeMode !== "taxi";
   $("route-steps").replaceChildren(...routeSteps(venue, state.routeMode, state.origin).map((step) => make("li", "", step)));
   $("route-feedback").textContent = "";
   $("route-copy-field").hidden = true;
@@ -497,6 +501,7 @@ function showRoute(venue, mode = venue.rail ? "subway" : "walk") {
   const korean = make("p", "driver-address", `${venue.ko} · ${venue.addressKo}`);
   korean.lang = "ko";
   const address = make("div", "route-address");
+  address.id = "driver-card";
   address.append(make("p", "form-label", "Address to show your driver"), korean);
   const help = make("div", "detail-source route-links");
   const language = make("details", "language-help");
@@ -587,5 +592,12 @@ for (const id of ["1170573670", "1107729911", "1656010116"]) {
 fillOriginSelect($("origin"));
 $("origin").addEventListener("change", () => setOrigin($("origin").value));
 $("search").addEventListener("input", updateFood);
+for (const sectionLink of document.querySelectorAll("[data-section], .cafe-link a")) {
+  sectionLink.addEventListener("click", (event) => {
+    if (!event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+      requestAnimationFrame(() => $("guide").scrollIntoView());
+    }
+  });
+}
 window.addEventListener("hashchange", renderSection);
 renderSection();

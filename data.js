@@ -384,7 +384,14 @@ const guideData = [
     "pair": {
       "price": 39000,
       "order": "Share one 500 g Cheonha Jeil Special on the cast-iron grill."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjA5MjRfMjUx%2FMDAxNzkwMjMwNDYzNTU5.QK3a99v7imfQq7cx06VPF_gLT5flpZgNcihiXfiYRP4g.0uWZb0hRWCw-nC5dvCMcTov7JJ--0-LhidnbtxeRoHUg.JPEG%2FIMG%25EF%25BC%25BF4477.JPG%2F900x1200",
+        "caption": "Table grills at Cheonha Jeil Sotttukkeong",
+        "source": "https://blog.naver.com/solttete/224423746920"
+      }
+    ]
   },
   {
     "id": "2064119908",
@@ -442,7 +449,14 @@ const guideData = [
     "pair": {
       "price": 43000,
       "order": "Order two portions of cheese pork back ribs and share one mozzarella fried rice to finish."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjExMThfODgg%2FMDAxNzk0OTg0OTU3MTE5.03ooKENV4sMuJqy6_qSECGJP-3SoDKAcP0_RdCDMzcAg.aRE0DtRfsgwPoq6yi8cj4vgnbYuTiqZx6Ch3qSXkRK8g.JPEG%2F3.jpg%2F522x689",
+        "caption": "Booth seating at Gobongdang Euljiro",
+        "source": "https://blog.naver.com/myjeh100/224482118328"
+      }
+    ]
   },
   {
     "id": "1198918621",
@@ -489,7 +503,14 @@ const guideData = [
     "pair": {
       "price": 72000,
       "order": "Share two portions of grilled freshwater eel and one rice-ball side. Try the eel with perilla and ginger."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjExMThfMTMz%2FMDAxNzk0OTc4NTU3MjQ5.7fTUzZc-Jfn3olOQNFCmm-qiTOojIJo6j6tQSQpSVOEg.WiYjeE1HHylmHOfMnCjSuvdFY7Sx2rKl3cK--OLRc6Ug.JPEG%2FIMG%25EF%25BC%25BF1253.JPG%2F900x1200",
+        "caption": "Dining room at Jangeo Sidae Namdaemun",
+        "source": "https://blog.naver.com/myeongdong_gogo/224482658036"
+      }
+    ]
   },
   {
     "id": "2054328658",
@@ -538,6 +559,11 @@ const guideData = [
       }
     ],
     "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjExMjBfMjU4%2FMDAxNzk1MTQ1Mzk4MDgw.JCUqvA-p9obkeNVOKebXeoTSvyOC9oeUxeUz7oX7D_kg.Gh7TyUJB0Ioy3fmulqXsRKrYMNuft9W4zKF88yP9SZAg.JPEG%2Ftmpuxy9okuv.jpg%2F2847x3804",
+        "caption": "Tables inside bb.q Chicken Euljiro 1-ga",
+        "source": "https://blog.naver.com/hkxts37c/224484606394"
+      },
       {
         "url": "https://ldb-phinf.pstatic.net/20261117_231/1794917710049WQrJ9_JPEG/20261114_142503.jpg?type=m500_500",
         "caption": "Entrance to the second-floor bb.q Chicken Euljiro 1-ga"
@@ -900,7 +926,14 @@ const guideData = [
     "pair": {
       "price": 36500,
       "order": "Order two plain dakgalbi portions, the two-person mixed add-on with cheese and ramyeon, and one Jangin Fried Rice to finish."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjExMDVfMTgg%2FMDAxNzkzODY5ODYxMTQ2.9KNYR5AiuDaGjfhNQLI1qoLGyMlY5JhqScA075V_T6Ig.L7_W7RJGaGvReO0e92MTLZTHF1lV4bp09bBXskX-G48g.JPEG%2F20261105_180757.jpg.jpg",
+        "caption": "Dining room at Jangin Dakgalbi Myeongdong",
+        "source": "https://m.place.naver.com/restaurant/1225449916/photo"
+      }
+    ]
   },
   {
     "id": "1068867375",
@@ -927,10 +960,6 @@ const guideData = [
     "bus": {
       "label": "Seongdong Community Sports Center (04180) · 7 min walk"
     },
-    "rail": {
-      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park. Change to Line 2 toward Sindang, then at Wangsimni change to the Suin–Bundang Line for Seoul Forest.",
-      "euljiro": "Take Line 2 toward Euljiro 3-ga. At Wangsimni, change to the Suin–Bundang Line and get off at Seoul Forest, one stop away."
-    },
     "source": {
       "label": "English map listing",
       "url": "https://gilpost.com/en/seoul/seongsu-dong-1-ga/places/yeoneoropda/"
@@ -956,7 +985,18 @@ const guideData = [
     "pair": {
       "price": 53000,
       "order": "Share the fresh salmon assortment and one order of salmon sushi."
-    }
+    },
+    "rail": {
+      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park. Change to Line 2 toward Sindang, then at Wangsimni change to the Suin–Bundang Line for Seoul Forest.",
+      "euljiro": "Take Line 2 toward Euljiro 3-ga. At Wangsimni, change to the Suin–Bundang Line and get off at Seoul Forest, one stop away."
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjExMDlfMTUz%2FMDAxNzk0MTUyOTY2NzMx.jZ2FxOX9exM6BMPA8-1Mfu8coRysrHiuYH7UOO63DX0g.U_cWMbdjGQNPaySxVUzJb7Pp5N5Px2zDA3NbtdpsIDwg.JPEG%2F03_%25EC%2584%25B1%25EC%2588%2598%25EC%2597%25B0%25EC%2596%25B4%25ED%259A%258C%25EB%25A7%259B%25EC%25A7%2591%25EB%2582%25B4%25EB%25B6%2580.jpg%2F679x760",
+        "caption": "Counter and kitchen at Yeoneoropda Seongsu",
+        "source": "https://blog.naver.com/fizz_report/224469691025"
+      }
+    ]
   },
   {
     "id": "1961769435",
@@ -1014,7 +1054,14 @@ const guideData = [
     "pair": {
       "price": 76000,
       "order": "Order two Tuna Special courses, one per person."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjEwMDJfMjM0%2FMDAxNzkwOTM2ODM0ODU1.Q84aJhWFoYkyziCAFX8wch0s1ogCHMnswrG59-yLSiog.lKbj_xV8IJsBSVI03DrcR9Ls4y1YTycFQCUZ6Mxgi8wg.JPEG%2FIMG_6120.jpeg",
+        "caption": "Booth seating at Lee Chun Bok Tuna Euljiro",
+        "source": "https://m.place.naver.com/restaurant/1961769435/photo"
+      }
+    ]
   },
   {
     "id": "36310038",
@@ -1061,7 +1108,14 @@ const guideData = [
     "pair": {
       "price": 49000,
       "order": "Share one flounder and salmon sashimi platter. Ask about seasonal specials if you want a second fish."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjExMTdfODgg%2FMDAxNzk0ODc0MzQ2NTU3.laZ3U0sNJroZbNyCMVXmbk_RBAW8woAk7hXsRsx_SpUg.2mpIKzt9d4SGPsCiKbz2gmIP5Cn54akblr5sqfzvjAAg.JPEG%2FIMG%25EF%25BC%25BF5941.jpg%2F900x1200",
+        "caption": "Tables inside Jamae Susan Gangnam",
+        "source": "https://blog.naver.com/havereview/224480368510"
+      }
+    ]
   },
   {
     "id": "1004949650",
@@ -1255,7 +1309,14 @@ const guideData = [
     "pair": {
       "price": 24000,
       "order": "Order one clear-broth sundae gukbap and one sundae gukbap set. Share the boiled pork that comes with the set."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjExMDNfMTUz%2FMDAxNzkzNjg5NDAwNzcy.e2MyLFQB6d_O-4KmiTBq3s5xIG3pWqBuCdwnp5m_4M8g.jqVEGO1nkRBFrhRdJQvJowKovIO5Uu5F5ShFFIF7u98g.JPEG%2FIMG%25EF%25BC%25BF5448.JPG%2F900x1200",
+        "caption": "Window and signage at Taejinok",
+        "source": "https://blog.naver.com/znzn3030_/224465539829"
+      }
+    ]
   },
   {
     "id": "1466590872",
@@ -1313,7 +1374,14 @@ const guideData = [
     "pair": {
       "price": 36000,
       "order": "Order two mushroom kalguksu portions and one shabu beef add-on. Ask for extra greens if you like. Finish with the fried rice from the set."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjExMTNfMjE4%2FMDAxNzk0NTQwOTMwOTcx.QrOk_I4NP6A6BYEzGQRbU2IYa7l_PMt0uyB6XDvz1Fkg.ZJ85G8xgL-2ozfHVlgw6OiJuhsbS2puvRBPr4lxzl5Ig.JPEG%2FDE11EBD5-BFE5-4D29-8080-4658F153D5D4.jpeg",
+        "caption": "Drinks station inside Deungchon Shabu Kalguksu Myeongdong",
+        "source": "https://m.place.naver.com/restaurant/1466590872/photo"
+      }
+    ]
   },
   {
     "id": "1016494771",
@@ -1364,7 +1432,14 @@ const guideData = [
     "pair": {
       "price": 26000,
       "order": "Share one Premium Budae Jjigae pot for two. Ask for ramyeon if you would like extra noodles."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjA5MDRfMTIw%2FMDAxNzg4NTE1Mzk4Njgx.jccwAs6ydApih5lNi54n8IMh-Yl80a-JkS4A8STy26og.Xh3hmITDqJvwhp5lAH1pK6XZikt5lKfFzsQpsMa2wXcg.JPEG%2FIMG_0585.jpg%2F2250x3000",
+        "caption": "Dining room at Namginam Budaejjigae Myeongdong No. 2",
+        "source": "https://blog.naver.com/eunbi2894/224401187959"
+      }
+    ]
   },
   {
     "id": "11725394",
@@ -1419,6 +1494,11 @@ const guideData = [
       }
     ],
     "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjExMTBfMjky%2FMDAxNzk0MzA2NDQzODUz.e5yXaPpgpfeek2TLAVVfEyhWxPXmwQzDJMGdAJGWGWog.kTCxA3wlJLCU0vmd35HGQMKo8PhGkBtzt1qPg0lOllAg.JPEG%2F900_20261107_110115.jpg%2F900x675",
+        "caption": "Dining room at Yaraehyang",
+        "source": "https://blog.naver.com/suna430_89/224474105434"
+      },
       {
         "url": "https://ldb-phinf.pstatic.net/20150831_73/14410298889448wKu3_JPEG/156155408340925_0.jpg?type=m500_500",
         "caption": "Yaraehyang entrance in Hoehyeon"
@@ -1487,6 +1567,11 @@ const guideData = [
     ],
     "photos": [
       {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjExMTdfMjEx%2FMDAxNzk0ODQ0ODAyNDk5.4XPaMWqPS_-D4_tU6uvP-uosHn-eNXviiAXnmA6rGrEg.EYcb2Y_54eLHCUPjMApiiC0dDM0R0k1qny4bSNzKI8Mg.JPEG%2FKakaoTalk_20261116_231136908_03.jpg%2F1000x1333",
+        "caption": "Window seating overlooking Bosingak at KNOWS Jongno",
+        "source": "https://blog.naver.com/iamssohot/224481807382"
+      },
+      {
         "url": "https://ldb-phinf.pstatic.net/20260402_85/1775107143221HVeEa_JPEG/%B7%B1%C4%A1.jpg?type=m500_500",
         "caption": "Bosingak pavilion view from KNOWS Jongno"
       }
@@ -1550,7 +1635,14 @@ const guideData = [
     "pair": {
       "price": 23600,
       "order": "Order two seasonal fruit yogurt mochi and two Mundeok lattes."
-    }
+    },
+    "photos": [
+      {
+        "url": "https://search.pstatic.net/common/?type=f640_380&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjEwMjJfNTMg%2FMDAxNzkyNjU5NzczMjA1.DYvN5QUF0dtR8VK2-eHEfS2F9x1DOPiVQLrpJ1e9OE0g.0sfMPG1f05N5nz7hS6vH04x7y5ipXTywDuIG7jD3eAkg.JPEG%2FIMG%25EF%25BC%25BF2268.jpg%2F900x1200",
+        "caption": "Counter and seating inside Euljiro Mundeok Cafe",
+        "source": "https://blog.naver.com/dodami_nuna/224469887156"
+      }
+    ]
   },
   {
     "id": "1688506880",
@@ -1576,8 +1668,8 @@ const guideData = [
       "label": "Seongsu 2-ga 3-dong Community Center (04210) · 4 min walk"
     },
     "rail": {
-      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Seongsu. Use Exit 1.",
-      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Seongsu. Use Exit 1."
+      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Seongsu.",
+      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Seongsu."
     },
     "source": {
       "label": "Menu and hours on Tabling",
@@ -1639,8 +1731,8 @@ const guideData = [
       "label": "Seongsu 2-ga 3-dong Community Center (04269) · 3 min walk"
     },
     "rail": {
-      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Seongsu. Use Exit 1.",
-      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Seongsu. Use Exit 1."
+      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Seongsu.",
+      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Seongsu."
     },
     "source": {
       "label": "Café profile from Movement Lab",
@@ -1766,8 +1858,8 @@ const guideData = [
     },
     "kind": "LP listening café",
     "rail": {
-      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Ttukseom. Use Exit 1.",
-      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Ttukseom. Use Exit 1."
+      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Ttukseom.",
+      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Ttukseom."
     },
     "itinerary": "Vinyl Seongsu",
     "source": {
@@ -1821,8 +1913,8 @@ const guideData = [
     "listing": "place",
     "kind": "Fashion",
     "rail": {
-      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Seongsu. Use Exit 3.",
-      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Seongsu. Use Exit 3."
+      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Seongsu.",
+      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Seongsu."
     },
     "itinerary": "Musinsa Standard",
     "source": {
@@ -1863,8 +1955,8 @@ const guideData = [
     "listing": "place",
     "kind": "Fashion",
     "rail": {
-      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Seongsu. Use Exit 2.",
-      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Seongsu. Use Exit 2."
+      "myeongdong": "Take Line 4 to Dongdaemun History & Culture Park, then change to Line 2 toward Sindang. Get off at Seongsu.",
+      "euljiro": "Take Line 2 from Euljiro 1-ga toward Euljiro 3-ga and get off at Seongsu."
     },
     "itinerary": "Daerim Changgo",
     "source": {
