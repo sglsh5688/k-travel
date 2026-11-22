@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1424">
+  <meta name="description" content="An English guide to Seoul restaurants and a Seongsu day out, with menu prices in SGD and NAVER Map directions from Myeongdong.">
+  <title>Seoul Guide · Food &amp; places</title>
+  <link rel="icon" href="assets/photos/favicon.png" sizes="64x64" type="image/png">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#guide">Skip to the guide</a>
+  <header class="site-header">
+    <div class="header-inner page-width">
+      <a class="brand" href="./" aria-label="Seoul Guide home">
+        <span class="brand-mark" aria-hidden="true"><span class="icon">explore</span></span>
+        Seoul<span>Guide</span>
+      </a>
+      <nav class="main-nav" aria-label="Guide sections">
+        <a href="#food" data-section="food" aria-current="page"><span class="icon" aria-hidden="true">restaurant</span>Food</a>
+        <a href="#places" data-section="places"><span class="icon" aria-hidden="true">location_on</span>Place</a>
+      </nav>
+      <span class="header-meta" aria-label="Prices in Singapore dollars"><span class="currency-dot" aria-hidden="true"></span> SGD prices</span>
+    </div>
+  </header>
+
+  <main class="page-width">
+    <section class="hero" aria-labelledby="page-title">
+      <img class="hero-image" src="assets/photos/myeongdong-night.webp" width="1680" height="1120" alt="" fetchpriority="high">
+      <div class="hero-copy">
+        <p class="hero-kicker"><span aria-hidden="true"></span> South Korea <span class="hero-korean" lang="ko">서울</span></p>
+        <h1 id="page-title">Seoul on<br>the <em>menu.</em></h1>
+        <p class="hero-intro">Find your next meal, then spend a day in Seongsu. Every stop starts from your Myeongdong base.</p>
+      </div>
+      <p class="photo-location"><span class="icon" aria-hidden="true">location_on</span> Myeongdong, Seoul</p>
+    </section>
+
+    <section class="departure" aria-labelledby="departure-label">
+      <div class="departure-copy">
+        <span class="departure-icon icon" aria-hidden="true">directions</span>
+        <div>
+          <h2 id="departure-label">Starting in Myeongdong</h2>
+          <p>Choose the station or bus stop closest to your hotel.</p>
+        </div>
+      </div>
+      <div class="departure-actions">
+        <label class="sr-only" for="origin">Starting point for directions</label>
+        <div class="select-wrap">
+          <select id="origin"><option>Myeongdong Station · Line 4</option></select>
+          <span class="icon select-icon" aria-hidden="true">arrow_drop_down</span>
+        </div>
+        <a class="map-help" href="https://mkt.naver.com/navermapapp" target="_blank" rel="noopener noreferrer">
+          <span class="naver-mark" aria-hidden="true">N</span> NAVER Map guide
+        </a>
+      </div>
+    </section>
+
+    <section class="guide" id="guide" aria-labelledby="guide-heading">
+      <div class="guide-top">
+        <div>
+          <h2 id="guide-heading">Food guide</h2>
+          <p id="guide-description">Korean BBQ, fried chicken, comforts and cafés.</p>
+        </div>
+        <div class="search-wrap" id="food-search">
+          <span class="icon" aria-hidden="true">search</span>
+          <label class="sr-only" for="search">Search food spots</label>
+          <input id="search" type="search" placeholder="Search a dish or spot" autocomplete="off">
+        </div>
+      </div>
+      <div id="food-panel">
+        <div class="themes" id="themes" role="group" aria-label="Filter by food theme"></div>
+        <p class="listing-count" id="listing-count" role="status"></p>
+        <div class="cards" id="food-cards"></div>
+      </div>
+      <div id="places-panel" hidden>
+        <section class="itinerary" aria-labelledby="itinerary-title">
+          <div class="itinerary-header">
+            <span class="departure-icon icon" aria-hidden="true">directions_subway</span>
+            <div>
+              <h3 id="itinerary-title">A day in Seongsu</h3>
+              <p>Take Line 2 from Euljiro 1-ga toward Dongdaemun History &amp; Culture Park. Get off at Seongsu for shopping or Ttukseom for Vinyl.</p>
+            </div>
+          </div>
+          <div class="itinerary-stops" id="itinerary-stops"></div>
+        </section>
+        <div class="cards place-cards" id="place-cards"></div>
+        <p class="cafe-link"><span class="icon" aria-hidden="true">restaurant</span> Taking a break between stops? <a href="#food/cafe">Browse the cafés</a>.</p>
+      </div>
+      <noscript><p>Turn on JavaScript to browse the guide and open directions.</p></noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer page-width">
+    <div>
+      <p class="footer-title">Seoul Guide</p>
+      <p>Hours and prices checked <time datetime="2026-11-23">23 Nov 2026</time>. Check NAVER Map before heading out, especially on holidays.</p>
+      <p>Approximate prices use S$1 ≈ ₩1,044. <a href="https://wise.com/gb/currency-converter/sgd-to-krw-rate/history/22-11-2026" target="_blank" rel="noopener noreferrer">Exchange rate, 22 Nov 2026</a></p>
+    </div>
+    <a class="photo-credit" href="https://www.pexels.com/photo/neon-signs-of-seoul-myeongdong-shopping-street-at-night-13679285/" target="_blank" rel="noopener noreferrer">Myeongdong photo on Pexels</a>
+  </footer>
+
+  <dialog class="modal" id="venue-dialog" aria-labelledby="venue-heading">
+    <form method="dialog" class="close-form">
+      <button class="close-button" aria-label="Close"><span class="icon" aria-hidden="true">close</span></button>
+    </form>
+    <div id="venue-content"></div>
+  </dialog>
+  <dialog class="modal route-modal" id="route-dialog" aria-labelledby="route-heading">
+    <form method="dialog" class="close-form">
+      <button class="close-button" aria-label="Close"><span class="icon" aria-hidden="true">close</span></button>
+    </form>
+    <div id="route-content"></div>
+  </dialog>
+</body>
+</html>
